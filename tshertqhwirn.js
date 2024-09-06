@@ -37,7 +37,7 @@ function 聲母規則() {
             case '影': return '';
             case '曉': return 'h̃';
 
-            case '云': return 'ʔɦ̃';
+            case '云': return 'ʔʁ';
 
             case '來': return 'ȴ';
 
@@ -85,7 +85,7 @@ function 聲母規則() {
         case '影': return '';
         case '曉': return 'h';
         case '匣': return 'ʔɦ';
-        case '云': return 'ʔɦ';
+        case '云': return 'ʔʁ';
         case '以': return 'd';
         case '來': return 'l';
         case '日': return 'ɲ';
