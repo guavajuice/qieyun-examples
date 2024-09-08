@@ -48,7 +48,7 @@ function 聲母規則() {
         case '影': return '';
         case '曉': return 'h';
         case '匣': return 'qh';
-        case '云': return 'qh';
+        case '云': return 'r';
         case '以': return 'd';
         case '來': return 'l';
         case '日': return 'ny';
