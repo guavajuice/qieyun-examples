@@ -160,14 +160,14 @@ function 韻母規則() {
     if (is('歌韻 一等 開口')) return 'ʌ';
     if (is('歌韻 一等')) return 'wʌ';
     if (is('歌韻 三等 開口')) return 'ɨ̃ɤ';
-    if (is('歌韻 三等')) return 'wɨ̃ɤ';
+    if (is('歌韻 三等')) return 'ʉ̃ɤ';
     // 假攝
     if (is('麻韻 二等 合口')) return 'wɑ';
     if (is('麻韻 二等')) return 'ɑ';
     if (is('麻韻 三等')) return 'ĩɑ';
     // 宕攝
     if (is('陽韻 開口')) return 'ɨ̃ɤŋ';
-    if (is('陽韻')) return 'wɨ̃ɤŋ';
+    if (is('陽韻')) return 'ʉ̃ɤŋ';
     if (is('唐韻 合口')) return 'wʌŋ';
     if (is('唐韻')) return 'ʌŋ';
     // 梗攝
