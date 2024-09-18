@@ -14,8 +14,10 @@ const when = (...x) => 音韻地位.判斷(...x);
 
 function 聲母規則() {
     if (is('庚韻 二等') && 字頭 === '打') return 't̻';
+    if (is('真韻 端母') && 字頭 === '蛭') return 't̻';
     if (is('庚韻 二等') && 字頭 === '冷') return 'l̻';
     if (字頭 === '地') return 'ʔd̻';
+    if (字頭 === '𡮞') return 't̻';
     if (is('三等')) {
         switch (音韻地位.母) {
             case '幫': return 'p̃';
