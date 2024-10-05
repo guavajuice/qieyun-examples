@@ -207,9 +207,10 @@ function 韻母規則() {
 }
 
 function 聲調規則() {
-    if (is('平入聲')) return '';
-    if (is('上聲')) return '2';
-    if (is('去聲')) return '3';
+    if (is('平聲')) return 'ˇ';
+    if (is('上聲')) return 'ˊ';
+    if (is('去聲')) return 'ˆ';
+    if (is('入聲')) return '';
     throw new Error('無聲調規則');
 }
 
