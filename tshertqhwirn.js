@@ -118,7 +118,7 @@ function 韻母規則() {
     // 蟹攝
     if (is('齊韻 合口')) return 'wɜj';
     if (is('齊韻')) return 'ɜj';
-    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽl' : 'wɪ̃l';
+    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽl' : 'ʏɪ̃l';
     if (is('祭韻')) return is('B類 或 云母 或 莊組') ? 'ẽl' : 'ɪ̃l';
     if (is('泰韻 合口')) return 'wʌl';
     if (is('泰韻')) return 'ʌl';
@@ -149,7 +149,7 @@ function 韻母規則() {
     if (is('刪韻')) return 'ɑn';
     if (is('山韻 合口')) return 'wæn';
     if (is('山韻')) return 'æn';
-    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽn' : 'wɪ̃n';
+    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽn' : 'ʏɪ̃n';
     if (is('仙韻')) return is('B類 或 云母 或 莊組') ? 'ẽn' : 'ɪ̃n';
     if (is('先韻 合口')) return 'uɜn';
     if (is('先韻')) return 'ɜn';
