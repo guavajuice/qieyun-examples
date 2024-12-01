@@ -104,52 +104,52 @@ function 韻母規則() {
     // 江攝
     if (is('江韻')) return 'ɒŋ';
     // 止攝
-    if (is('支韻 合口')) return is('B類 或 云母 或 莊組') ? 'wɘ̃' : 'wɨ̃';
-    if (is('支韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃' : 'ɨ̃';
-    if (is('脂韻 合口')) return is('B類 或 云母 或 莊組') ? 'wɘ̃j' : 'wɨ̃j';
-    if (is('脂韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃j' : 'ɨ̃j';
+    if (is('支韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃' : 'ʊᵻ̃';
+    if (is('支韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃' : 'ᵻ̃';
+    if (is('脂韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃j' : 'ʊᵻ̃j';
+    if (is('脂韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃j' : 'ᵻ̃j';
     if (is('之韻')) return is('B類 或 云母 或 莊組') ? 'ɵ̃j' : 'ø̃j';
     if (is('微韻 開口')) return 'ø̃';
-    if (is('微韻')) return 'ỹ';
+    if (is('微韻')) return 'ʏ̃';
     // 遇攝
     if (is('魚韻')) return 'ɶ̃';
     if (is('虞韻')) return 'œ̃';
     if (is('模韻')) return 'ɔ';
     // 蟹攝
-    if (is('齊韻 合口')) return 'wɜj';
+    if (is('齊韻 合口')) return 'ʊɜj';
     if (is('齊韻')) return 'ɜj';
-    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽl' : 'ʏɪ̃l';
+    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʏẽl' : 'ʏɪ̃l';
     if (is('祭韻')) return is('B類 或 云母 或 莊組') ? 'ẽl' : 'ɪ̃l';
-    if (is('泰韻 合口')) return 'wʌl';
+    if (is('泰韻 合口')) return 'ʊʌl';
     if (is('泰韻')) return 'ʌl';
-    if (is('佳韻 合口')) return 'wæ';
+    if (is('佳韻 合口')) return 'ʊæ';
     if (is('佳韻')) return 'æ';
-    if (is('皆韻 合口')) return 'wæj';
+    if (is('皆韻 合口')) return 'ʊæj';
     if (is('皆韻')) return 'æj';
-    if (is('夬韻 合口')) return 'wɑl';
+    if (is('夬韻 合口')) return 'ʊɑl';
     if (is('夬韻')) return 'ɑl';
     if (is('咍韻')) return 'ɔj';
     if (is('灰韻')) return 'ɞj';
     if (is('廢韻 開口')) return 'ɶ̃l';
     if (is('廢韻')) return 'œ̃l';
     // 臻攝
-    if (is('真韻 合口')) return is('B類 或 云母 或 莊組') ? 'wɘ̃n' : 'wɨ̃n';
-    if (is('真韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃n' : 'ɨ̃n';
+    if (is('真韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃n' : 'ʊᵻ̃n';
+    if (is('真韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃n' : 'ᵻ̃n';
     if (is('臻韻')) return 'ɵ̃n';
     if (is('殷韻')) return 'ø̃n';
-    if (is('文韻')) return 'ỹn';
+    if (is('文韻')) return 'ʏ̃n';
     if (is('元韻 開口')) return 'ɶ̃n';
     if (is('元韻')) return 'œ̃n';
     if (is('痕韻')) return 'ɔn';
     if (is('魂韻')) return 'ɞn';
     // 山攝
     if (is('寒韻 開口')) return 'ʌn';
-    if (is('寒韻')) return 'wʌn';
-    if (is('刪韻 合口')) return 'wɑn';
+    if (is('寒韻')) return 'ʊʌn';
+    if (is('刪韻 合口')) return 'ʊɑn';
     if (is('刪韻')) return 'ɑn';
-    if (is('山韻 合口')) return 'wæn';
+    if (is('山韻 合口')) return 'ʊæn';
     if (is('山韻')) return 'æn';
-    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'wẽn' : 'ʏɪ̃n';
+    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʏẽn' : 'ʏɪ̃n';
     if (is('仙韻')) return is('B類 或 云母 或 莊組') ? 'ẽn' : 'ɪ̃n';
     if (is('先韻 合口')) return 'uɜn';
     if (is('先韻')) return 'ɜn';
@@ -160,28 +160,28 @@ function 韻母規則() {
     if (is('豪韻')) return 'ʌʊ';
     // 果攝
     if (is('歌韻 一等 開口')) return 'ʌ';
-    if (is('歌韻 一等')) return 'wʌ';
-    if (is('歌韻 三等 開口')) return 'ɨ̃ɤ';
-    if (is('歌韻 三等')) return 'ʉ̃ɤ';
+    if (is('歌韻 一等')) return 'ʊʌ';
+    if (is('歌韻 三等 開口')) return 'ᵻ̃ɤ';
+    if (is('歌韻 三等')) return 'ᵿ̃ɤ';
     // 假攝
-    if (is('麻韻 二等 合口')) return 'wɑ';
+    if (is('麻韻 二等 合口')) return 'ʊɑ';
     if (is('麻韻 二等')) return 'ɑ';
-    if (is('麻韻 三等')) return 'ĩɑ';
+    if (is('麻韻 三等')) return 'ɪ̃ɑ';
     // 宕攝
-    if (is('陽韻 開口')) return 'ɨ̃ɤŋ';
-    if (is('陽韻')) return 'ʉ̃ɤŋ';
-    if (is('唐韻 合口')) return 'wʌŋ';
+    if (is('陽韻 開口')) return 'ᵻ̃ɤŋ';
+    if (is('陽韻')) return 'ᵿ̃ɤŋ';
+    if (is('唐韻 合口')) return 'ʊʌŋ';
     if (is('唐韻')) return 'ʌŋ';
     // 梗攝
-    if (is('庚韻 二等 合口')) return 'wɑŋ';
+    if (is('庚韻 二等 合口')) return 'ʊɑŋ';
     if (is('庚韻 二等')) return 'ɑŋ';
-    if (is('庚韻 三等 合口')) return 'ỹɑŋ';
-    if (is('庚韻 三等')) return 'ĩɑŋ';
-    if (is('耕韻 合口')) return 'wæŋ';
+    if (is('庚韻 三等 合口')) return 'ʏ̃ɑŋ';
+    if (is('庚韻 三等')) return 'ɪ̃ɑŋ';
+    if (is('耕韻 合口')) return 'ʊæŋ';
     if (is('耕韻')) return 'æŋ';
-    if (is('清韻 合口')) return is('B類 或 云母 或 莊組') ? 'wɘ̃ŋ' : 'wɨ̃ŋ';
-    if (is('清韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃ŋ' : 'ɨ̃ŋ';
-    if (is('青韻 合口')) return 'wɜŋ';
+    if (is('清韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃ŋ' : 'ʊᵻ̃ŋ';
+    if (is('清韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃ŋ' : 'ᵻ̃ŋ';
+    if (is('青韻 合口')) return 'ʊɜŋ';
     if (is('青韻')) return 'ɜŋ';
     // 曾攝
     if (is('蒸韻 合口')) return 'ʏ̃ɪŋ';
