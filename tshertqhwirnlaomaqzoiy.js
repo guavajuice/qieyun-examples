@@ -2,7 +2,7 @@
  *
  * https://zhuanlan.zhihu.com/p/686816944
  *
- * @author Loiyk Durng
+ * @author Loiyk Duurng
  */
 
 if (!音韻地位) return [];
@@ -69,7 +69,7 @@ function 韻母規則() {
     if (is('支韻')) return is('B類 或 云母 或 莊組') ? 'ir' : 'uu';
     if (is('脂韻 合口')) return is('B類 或 云母 或 莊組') ? 'wiry' : 'wuuy';
     if (is('脂韻')) return is('B類 或 云母 或 莊組') ? 'iry' : 'uuy';
-    if (is('之韻')) return is('B類 或 云母 或 莊組') ? 'euy' : 'oiy';
+    if (is('之韻')) return is('莊組') ? 'euy' : 'oiy';
     if (is('微韻 開口')) return 'oi';
     if (is('微韻')) return 'ui';
     // 遇攝
@@ -146,15 +146,15 @@ function 韻母規則() {
     if (is('青韻')) return 'erng';
     // 曾攝
     if (is('蒸韻 合口')) return 'uing';
-    if (is('蒸韻')) return is('B類 或 云母 或 莊組') ? 'euyng' : 'oiyng';
+    if (is('蒸韻')) return is('莊組') ? 'euyng' : 'oiyng';
     if (is('登韻 合口')) return 'uyng';
     if (is('登韻')) return 'ouyng'
     // 流攝
     if (is('尤韻')) return 'eow';
     if (is('侯韻')) return 'ow';
-    if (is('幽韻')) return is('B類 或 云母 或 莊組') ? 'euw' : 'oiw';
+    if (is('幽韻')) return is('莊組') ? 'euw' : 'oiw';
     // 深攝
-    if (is('侵韻')) return is('B類 或 云母 或 莊組') ? 'eum' : 'oim';
+    if (is('侵韻')) return is('莊組') ? 'eum' : 'oim';
     // 咸攝
     if (is('覃韻')) return 'om';
     if (is('談韻')) return 'aom';
