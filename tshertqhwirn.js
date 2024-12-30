@@ -104,9 +104,9 @@ function 韻母規則() {
     // 江攝
     if (is('江韻')) return 'ɒŋ';
     // 止攝
-    if (is('支韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃' : 'ʊᵻ̃';
+    if (is('支韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿɘ̃' : 'ᵿᵻ̃';
     if (is('支韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃' : 'ᵻ̃';
-    if (is('脂韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃ɪ' : 'ʊᵻ̃ɪ';
+    if (is('脂韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿɘ̃ɪ' : 'ᵿᵻ̃ɪ';
     if (is('脂韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃ɪ' : 'ᵻ̃ɪ';
     if (is('之韻')) return is('莊組') ? 'ɵ̃ɪ' : 'ø̃ɪ';
     if (is('微韻 開口')) return 'ø̃';
@@ -118,7 +118,7 @@ function 韻母規則() {
     // 蟹攝
     if (is('齊韻 合口')) return 'ʊɜɪ';
     if (is('齊韻')) return 'ɜɪ';
-    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʏẽl' : 'ʏɪ̃l';
+    if (is('祭韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿẽl' : 'ᵿɪ̃l';
     if (is('祭韻')) return is('B類 或 云母 或 莊組') ? 'ẽl' : 'ɪ̃l';
     if (is('泰韻 合口')) return 'ʊʌl';
     if (is('泰韻')) return 'ʌl';
@@ -133,7 +133,7 @@ function 韻母規則() {
     if (is('廢韻 開口')) return 'ɶ̃l';
     if (is('廢韻')) return 'œ̃l';
     // 臻攝
-    if (is('真韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃n' : 'ʊᵻ̃n';
+    if (is('真韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿɘ̃n' : 'ᵿᵻ̃n';
     if (is('真韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃n' : 'ᵻ̃n';
     if (is('臻韻')) return 'ɵ̃n';
     if (is('殷韻')) return 'ø̃n';
@@ -149,7 +149,7 @@ function 韻母規則() {
     if (is('刪韻')) return 'ɑn';
     if (is('山韻 合口')) return 'ʊæn';
     if (is('山韻')) return 'æn';
-    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʏẽn' : 'ʏɪ̃n';
+    if (is('仙韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿẽn' : 'ᵿɪ̃n';
     if (is('仙韻')) return is('B類 或 云母 或 莊組') ? 'ẽn' : 'ɪ̃n';
     if (is('先韻 合口')) return 'uɜn';
     if (is('先韻')) return 'ɜn';
@@ -179,7 +179,7 @@ function 韻母規則() {
     if (is('庚韻 三等')) return 'ɪ̃ɑŋ';
     if (is('耕韻 合口')) return 'ʊæŋ';
     if (is('耕韻')) return 'æŋ';
-    if (is('清韻 合口')) return is('B類 或 云母 或 莊組') ? 'ʊɘ̃ŋ' : 'ʊᵻ̃ŋ';
+    if (is('清韻 合口')) return is('B類 或 云母 或 莊組') ? 'ᵿɘ̃ŋ' : 'ᵿᵻ̃ŋ';
     if (is('清韻')) return is('B類 或 云母 或 莊組') ? 'ɘ̃ŋ' : 'ᵻ̃ŋ';
     if (is('青韻 合口')) return 'ʊɜŋ';
     if (is('青韻')) return 'ɜŋ';
