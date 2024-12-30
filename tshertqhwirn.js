@@ -185,7 +185,7 @@ function 韻母規則() {
     if (is('青韻')) return 'ɜŋ';
     // 曾攝
     if (is('蒸韻 合口')) return 'ʏ̃ɪŋ';
-    if (is('蒸韻')) return is('莊組') ? 'ɵ̃ɪŋ' : 'ø̃ɪŋ';
+    if (is('蒸韻')) return is('莊組') || 字頭 === '𡮞' ? 'ɵ̃ɪŋ' : 'ø̃ɪŋ';
     if (is('登韻 合口')) return 'ʊɪŋ';
     if (is('登韻')) return 'oɪŋ';
     // 流攝
