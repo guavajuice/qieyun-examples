@@ -88,7 +88,7 @@ function 聲母規則() {
         case '曉': return 'h';
         case '匣': return 'ʔɦ';
         case '云': return 'ʔʁ';
-        case '以': return 'd̻';
+        case '以': return 'd̃';
         case '來': return 'l';
         case '日': return 'ɲ';
         default: throw new Error('無聲母規則');
